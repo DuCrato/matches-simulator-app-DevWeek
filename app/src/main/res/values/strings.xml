@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">SimulatorDio</string>
+    <string name="app_name">Simulador</string>
     <string name="txt_simulate">Botão para simulação de partidas</string>
     <string name="contDes_home">Imagem time da casa</string>
     <string name="contDes_away">Imagem de time visitante</string>
     <string name="txt_versus">X</string>
-    <string name="error_api">Erro !!!!</string>
+    <string name="error_api">Erro inesperado...</string>
 </resources>
