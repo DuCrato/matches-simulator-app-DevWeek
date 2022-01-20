@@ -4,4 +4,5 @@
     <string name="contDes_home">Imagem time da casa</string>
     <string name="contDes_away">Imagem de time visitante</string>
     <string name="txt_versus">X</string>
+    <string name="error_api">Erro !!!!</string>
 </resources>

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".DetailActivity">
+    android:background="@drawable/tela_de_fundo"
+    tools:context=".ui.DetailActivity">
 
     <!-- Adding an image to the prominent top app bar:
          Reference: https://material.io/components/app-bars-top/android#regular-top-app-bar -->
@@ -69,6 +70,7 @@
                 android:layout_marginStart="@dimen/margin_default"
                 android:layout_marginTop="@dimen/margin_default"
                 android:layout_marginEnd="@dimen/margin_default"
+                android:textColor="@color/white"
                 android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -82,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
+                android:progressTint="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/ivHomeTeam"
                 app:layout_constraintStart_toStartOf="@+id/ivHomeTeam"
                 app:layout_constraintTop_toBottomOf="@+id/ivHomeTeam" />
@@ -91,6 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
+                android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintEnd_toEndOf="@+id/ivHomeTeam"
                 app:layout_constraintStart_toStartOf="@+id/ivHomeTeam"
@@ -102,6 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="@+id/ivHomeTeam"
                 app:layout_constraintEnd_toStartOf="@+id/tvVersus"
@@ -115,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/txt_versus"
+                android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@+id/ivHomeTeam"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -136,6 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
+                android:progressTint="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
                 app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
                 app:layout_constraintTop_toBottomOf="@+id/ivAwayTeam" />
@@ -145,6 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
+                android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
                 app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
@@ -156,6 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="@+id/ivAwayTeam"
                 app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/tela_de_fundo"
+    tools:context=".ui.MainActivity">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/srlMatches"
@@ -19,7 +20,7 @@
             android:id="@+id/recMatches"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/match_item"/>
+            tools:listitem="@layout/match_item" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
@@ -28,10 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
+        android:backgroundTint="@color/black"
         android:contentDescription="@string/txt_simulate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_simulate" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
